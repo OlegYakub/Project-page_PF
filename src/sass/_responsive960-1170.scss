@@ -1,0 +1,60 @@
+/* ==================================960========================== */
+
+@media screen and (max-width: 1170px) and (min-width: 960px){
+	
+	html, body{
+		overflow-x: hidden;
+	}
+
+	.container{
+		max-width: 960px;
+		
+	}
+
+
+	
+
+/* ==========main-1============ */
+
+	.main-1{
+		
+		&__logo{
+			padding-left: 0;
+			img{
+				width: 100%;
+			}
+		}
+
+		&__title{
+			text-align: right;
+			margin-right: 0;
+		}
+
+		&__item{
+			font-size: 1.3em;
+		}
+	}
+
+	.main-2{
+		position: static;
+		//padding-top: 40px;
+	}
+
+
+/* ==========main-2============ */
+
+	.main-2{
+		
+	}
+
+
+/* ==========FOOTER============ */
+	footer{
+
+	}
+
+	.footer{
+			
+	}
+
+}	

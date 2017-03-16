@@ -1,0 +1,78 @@
+/* ==================================744========================== */
+
+@media screen and (max-width: 959px) and (min-width: 744px){
+	html, body{
+		overflow-x: hidden;
+	}
+
+	.container{
+		max-width:  743px;
+	}
+
+
+
+/* ==========main-1============ */
+
+	.main-1{
+		//background-size: contain;
+		&__logo{
+			padding-left: 0;
+			img{
+				width: 100%;
+			}
+		}
+
+		&__title{
+			text-align: right;
+			margin-right: 0;
+			font-size: (36px / 1.5);
+		}
+
+		&__item{
+			font-size: 1.3em;
+			text-align: center;
+		}
+
+		&__bot{
+			-webkit-box-pack: justify;
+			-webkit-justify-content: space-between;
+			justify-content: space-between;
+		}
+	}
+
+
+/* ==========main-2============ */
+
+	.main-2{
+		
+	}
+
+
+	.technologys{
+		
+		&__body{
+			width: 724px;
+		}
+		&__item{
+			//padding: 0;
+			width: 151px;
+		}
+
+		&__list{
+			li{
+				width: 52px;
+			}
+		}
+	}
+
+/* ==========FOOTER============ */
+	footer{
+
+	}
+
+	.footer{
+		
+		width: 100%;
+	}
+
+}	
